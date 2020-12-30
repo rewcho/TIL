@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-Contact page
-=======
-contact page
+# Contact page
+
 >>>>>>> contact
