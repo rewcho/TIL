@@ -43,13 +43,13 @@ $ git remote remove <remotename>
 
 중심에 해당하는 branch가 단순히 최신 데이터가 반영이 안 된 경우, 최신 데이터가 반영된 branch를 합병하게 되면 해당  branch의 상태로 업데이트 되는 것을 의미한다.  이 때 경로가 1개 뿐이고 크게 충돌하는 데이터가 없어서 바로 진행이 된다.
 
-
+![image-20201230145832410](2nd_try.assets/image-20201230145832410.png)
 
 ### 자동 merge
 
 중심에 해당하는 branch와 다른 branch를 합병할 때, 데이터의 위치가 겹치지 않아 그자리에 바로 합쳐도 문제없다고 판단되는 경우 `$ git commit <filename>`과 비슷한 상황으로 나오며 이를 허용하면 자동으로 merge되는 것을 뜻한다.
 
-
+![image-20201230145937850](2nd_try.assets/image-20201230145937850.png)
 
 ### 수동 merge
 
