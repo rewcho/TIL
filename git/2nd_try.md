@@ -61,3 +61,15 @@ $ git remote remove <remotename>
 
 
 
+git log --pretty=format:"%h %s" --graph
+
+
+
+1. 각자 브랜치에서 작업함 (commit)
+2. push도 종종함.
+3. 적절한 시점에 리모트/master와 merge 함.
+4. 이 때, Pull Request 를 통해서 리모트에서 원격으로 merge 진행함.
+5. 리모트 merge 종료 이후, 로컬에서 master 브랜치로 origin/master 를 pull 함.(git pull origin master)
+6. pull 이후에 바로 다른 브랜치 생성 => 다시 위의 작업 반복
+
+git clone

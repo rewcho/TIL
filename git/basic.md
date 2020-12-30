@@ -86,3 +86,9 @@ working directory에서 수정/생성한 것을 commit 상태로 올리기 위�
    + 그러나 stage 단계를 취소할 때는 `$ git restore --staged <filename>`을 입력하면 되며, 이는 stage 상태만 취소할 뿐 데이터 자체가 사라지지는 않기 때문에 사용하는데 무리는 없다.
 5. stage 단계로 올리고 싶으면 `$ git add <filename>`을 입력하면 된다.
 6. stage로 올리기 전 현재 파일과 commit사이에서 변경점을 알고 싶으면 '$ git diff'을 입력하면 표시해준다.
+
+## git 등록
+
+git branch => 브랜치 조회
+git branch about => about 브랜치 생성
+git switch about => about 브랜치로 HEAD 이동
