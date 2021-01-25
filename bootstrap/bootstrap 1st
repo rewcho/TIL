@@ -1,0 +1,15 @@
+- cdn은 Content Delivery Network의 약자이다.
+- 장치의 크기에 따라 보이는 화면이 달라진다.
+초소형 : 매우 작은 장비
+소형 : 스마트폰
+중형 : 태블릿
+대형 : PC
+초대형 : TV
+- line-height 단위는 em인데 이 em은 폰터사이즈를 1로 본다는 의미이다. 
+- 즉, font-size가 12px라고 하면 1em은 12px이다.
+- 색상은 primary, success, info, warning, danger 정도는 기억하자.
+- mx-auto는 margin x축을 자동으로 설정한다는 의미이다. my-auto도 존재한다.
+- 버튼은 기본적으로 인라인 스타일이다.
+- list-group은 부모에게 100%를 물려받는다.
+- 창을 작게 하면 메뉴에 버튼이 생기는데 이것을 overflow 버튼이라고 한다.
+- #은 id 선택자이므로 반드시 연동되는 id가 있어야하며, 이름이 같아야 한다.
