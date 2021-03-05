@@ -12,3 +12,7 @@
 변수 뒤에 & 붙이면 참조를 한다는 뜻
 
 uint_8    : unsigned integer 8bit라는 뜻
+
+mosquitto_sub -v -h localhost -t user1/#
+
+mosquitto_pub -h localhost -t test/led -m 20
